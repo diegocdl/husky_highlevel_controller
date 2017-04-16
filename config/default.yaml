@@ -1,0 +1,2 @@
+scan_topic_name: /scan
+scan_topic_queue_size: 1
