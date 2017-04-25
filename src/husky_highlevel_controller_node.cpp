@@ -4,8 +4,8 @@
 int main(int argc, char **argv) {
   ros::init(argc, argv, "husky_highlevel_controller");
 
-  // create a (Default) public nodeHandle
-  ros::NodeHandle nodeHandle;
+  // create a private namespace nodeHandle
+  ros::NodeHandle nodeHandle("~");
 
   husky_highlevel_controller::HuskyHighlevelController huskyHighlevelController(nodeHandle);
 

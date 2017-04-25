@@ -14,7 +14,7 @@ namespace husky_highlevel_controller {
     }
 
     // create a subscriber to the topic_name
-    subscriber_ = nodeHandle_.subscribe(topic_name_, 1,
+    subscriber_ = nodeHandle_.subscribe(topic_name_, topic_size_queue_,
                                         &HuskyHighlevelController::scanCallback, this);
     ROS_INFO("Successfully launched node.");
   }
