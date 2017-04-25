@@ -2,15 +2,15 @@
 <package format="2">
   <name>husky_highlevel_controller</name>
   <version>0.1.0</version>
-  <description>A template for ROS packages.</description>
-  <maintainer email="pfankhauser@ethz.ch">Peter Fankhauser</maintainer>
+  <description>Exercise 2 of ETH ROS Course.</description>
+  <maintainer email="diegocdl@galileo.edu">Diego Calderon</maintainer>
   <license>BSD</license>
-  <url type="website">https://github.com/ethz-asl/ros_best_practices</url>
-  <url type="bugtracker">https://github.com/ethz-asl/ros_best_practices/issues</url>
-  <author email="pfankhauser@ethz.ch">Peter Fankhauser</author>
-  
+  <url type="website">https://github.com/diegocdl/husky_highlevel_controller</url>
+  <url type="bugtracker">https://github.com/diegocdl/husky_highlevel_controller/issues</url>
+  <author email="diegocdl@galileo.edu">Diego Calderon</author>
+
   <buildtool_depend>catkin</buildtool_depend>
-  
+
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
 </package>
